@@ -8,17 +8,16 @@ enum inventory{
 type products {
     id: Int!
     category:inventory!
-    name: String!
-    price: Float!
-    image: String!
+    name:String!
+    price:Float!
+    image:String!
 }
 input productinputs
 {
     category:inventory!
-    name: String!
-    price: Float!
-    "Optional, if not supplied, will be blank"
-    image: String
+    name:String!
+    price:Float!
+    image: String!
 }
 ##### Top level declarations
 type Query {
